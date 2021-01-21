@@ -1,0 +1,17 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: candara;
+}
+
+body {
+	margin: 100px;
+}
+
+input {
+	padding: 5px;
+}
+
+button {
+	padding: 5px;
+}

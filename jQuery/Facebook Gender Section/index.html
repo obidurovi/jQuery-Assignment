@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Facebook Gender Section</title>
+	<!-- Main Style-->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="gender">
+		<h4>Gender</h4>
+        <input name="gender" type="radio" value="Female" id="female"> <label for="female">Female</label>
+        <input name="gender" type="radio" value="Male" id="male"> <label for="male">Male</label>
+        <input name="gender" type="radio" value="Custom" id="custom"> <label for="custom">Custom</label>
+
+        <div class="custom-gender">
+        	
+        	<select>
+        		<option value="">--Select--</option>
+        		<option value="">--Select--</option>
+        		<option value="">--Select--</option>
+        		<option value="">--Select--</option>
+        		<option value="">--Select--</option>
+        	</select>
+        	<input type="text">
+        </div>
+
+
+	</div>
+
+
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script >
+ 
+   $('.gender input').change(function(){
+   	let value = $(this).val();
+
+   	if(value == 'Custom'){
+       $('.custom-gender').show();
+   	}else{
+         $('.custom-gender').hide();
+   	}
+   });
+ 
+
+</script>
+
+</body>
+</html>

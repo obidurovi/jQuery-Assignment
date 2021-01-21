@@ -1,0 +1,27 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: candara;
+}
+
+body {
+	margin: 100px;
+}
+
+.reg {
+	width: 400px;
+	margin: 100px auto 0px;
+
+}
+
+.reg input {
+	display: block;
+	border: 1px solid black;
+	padding: 10px;
+	width: 300px;
+	margin: 10px 0px;
+} 
+
+.reg button {
+	padding: 5px;
+}

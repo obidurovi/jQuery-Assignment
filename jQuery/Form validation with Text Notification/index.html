@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<title>Form validation with Text Notification</title>
+     <!-- main style-->
+     <link rel="stylesheet" href="assets/css/style.css">
+
+ </head>
+ <body>
+ 	   <div class="reg">
+ 	   	<h2>Sign up Now</h2>
+ 	   	<hr>
+ 	    <h3></h3>
+ 	   	<input id="name" type="text" placeholder="Name">
+ 	   	<p id="name"></p>
+ 	   	<input id="email" type="text" placeholder="Email">
+ 	   	<p id="email"></p>
+ 	   	<input id="cell" type="text" placeholder="Cell">
+ 	   	<p id="cell"></p>
+ 	   	<input id="pass" type="password" placeholder="Password">
+ 	   	<p id="pass"></p>
+ 	   	<button>Sign Up</button>
+ 	   </div>
+
+    <!-- jQuery Libs -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+    <script>
+           $('button').click(function(){
+
+
+    	// Get value
+    	
+                 let name = $('#name').val();
+                 let email= $('#email').val();
+                 let cell = $('#cell').val();
+                 let pass = $('#pass').val();
+                      
+                      if( name == '' ){
+                      	$('p#name').html('<span style="color:red;">Required*</span>')
+                      }else {
+                      	$('p#name').html('');
+                      }
+                      if( email == '' ){
+                      	$('p#email').html('<span style="color:red;">Required*</span>')
+                      }else {
+                      	$('p#email').html('');
+                      }
+                      if( cell == '' ){
+                      	$('p#cell').html('<span style="color:red;">Required*</span>')
+                      }else {
+                      	$('p#cell').html('');
+                      }
+                      if( pass == '' ){
+                      	$('p#pass').html('<span style="color:red;">Required*</span>')
+                      }else {
+                      	$('p#pass').html('');
+                      }
+
+                 if(name == '' || email == '' || cell== '' || pass == ''){
+                        $('h3').html('<span style="color:red;">Required</span>');
+                        
+                 }else {
+                 	$('h3').html('<span style="color:green;">Data Stable</span>');
+                 }
+                
+
+
+
+    	});
+
+
+
+    </script>
+
+ </body>
+ </html>

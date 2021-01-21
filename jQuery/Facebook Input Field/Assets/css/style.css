@@ -1,0 +1,217 @@
+/*CSS Reset Code*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	width: 980px;
+	margin: auto;
+}
+
+
+/*CSS Reset End*/
+
+.facebook-auth	{
+	background-color: #F0F2F5;
+	padding: 130px 0px 200px;
+}
+
+.facebook-auth:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.facebook-auth .auth-left {
+	width: 60%;
+	float: left;
+
+}
+
+.facebook-auth .auth-left h2 {
+	font-size: 28px;
+	font-weight: normal;
+	color: #1c1e21;
+	width: 90%;
+}
+
+.facebook-auth .auth-left img {
+	width: 300px;
+	transform: translate(-31px, 17px);
+	margin-top: 30px;
+}
+
+.facebook-auth .auth-right {
+	width: 40%;
+	float: left;
+	
+}
+
+.facebook-auth .auth-right .login-area {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+	
+}
+
+.login-area input:focus {
+	outline: none;
+	color: #1d2129;
+	border-color: #1877f2;
+}
+
+.login-area input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 14px 16px;
+	border: 1px solid #dddfe2;
+	border-radius: 6px;
+	font-size: 17px;
+	color: #90949c;
+	margin-bottom: 10px;
+}
+
+.login-area button {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 14px 16px;
+	border: 1px solid #1877f2;
+	background-color: #1877f2;
+	border-radius: 6px;
+	font-size: 17px;
+	color: white;
+	margin-bottom: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.login-area button:focus {
+	outline: none;
+}
+
+.login-area button:hover {
+	background-color: #166fe5;
+}
+
+
+.login-area a:nth-child(2) {
+	display: table;
+	font-size: 14px;
+	color: #1877f2;
+	margin: 15px auto 20px;
+}
+
+.login-area a:nth-child(2):hover {
+	text-decoration: underline;
+}
+
+.login-area hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #dadde1;
+}
+
+.login-area a:nth-child(4) {
+	display: table;
+	margin: 20px auto 0px;
+	background-color: #42b72a;
+	font-weight: bold;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 6px;
+}
+
+
+.facebook-auth .auth-right p {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 30px;
+	color: #1c1e21;
+}
+
+.facebook-auth .auth-right p a {
+	font-weight: bold;
+	color: #1c1e21;
+}
+
+.footer-area {
+	background-color: white;
+	padding: 30px 0px;
+
+}
+
+.footer-area .footer-top ul li {
+	display: inline-block;
+
+
+}
+
+.footer-area .footer-top ul li a {
+	font-size: 12px;
+	color: #8a8d91;
+	display: inline-block;
+	padding: 4px 3px;
+}
+
+.footer-area .footer-top ul li a:hover {
+	text-decoration: underline;
+
+}
+
+
+.footer-area .footer-top ul li:nth-child(12) a {
+	background-color: #f5f6f7;
+	border: 1px solid #ccd0d5;
+	padding: 2px 9px;
+	display: inline-block;
+}
+
+.footer-area .footer-top {
+	border-bottom: 1px solid #dddfe2;
+	padding-bottom: 10px;
+	transform: translate(-2px, 0px);
+}
+
+.footer-area .footer-middle {
+	transform: translate(-7px, 0px);
+}
+
+.footer-area .footer-middle ul li {
+	display: inline-block;
+
+}
+
+.footer-area .footer-middle ul li a {
+	font-size: 12px;
+	color: #8a8d91;
+	display: inline-block;
+	padding: 5px 8px;
+}
+
+.footer-area .footer-middle ul li a:hover {
+	text-decoration: underline;
+
+}
+
+.footer-area .footer-bottom p {
+	font-size: 11px;
+	color: #737373;
+	padding: 20px 0px;
+}

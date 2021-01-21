@@ -1,0 +1,27 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: candara;
+}
+
+
+body {
+	margin: 100px;
+}
+
+.result h6 {
+	width: 226px;
+	font-size: 22px;
+	border: 1px solid black;
+}
+
+.result hr {
+	width: 226px;
+}
+
+.result img {
+	width: 226px;
+	transform: translate(-307px, 0px);
+	display: none;
+	
+}
